@@ -1,0 +1,9 @@
+CREATE TABLE topicos (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    titulo VARCHAR(100) NOT NULL,
+    mensaje VARCHAR(300) NOT NULL,
+    fecha_de_creacion VARCHAR(100) NOT NULL,
+    curso ENUM('MATEMATICAS', 'CALCULO', 'DESARROLLO', 'FISICA', 'BIOLOGIA') NOT NULL,
+
+    PRIMARY KEY (id)
+);
